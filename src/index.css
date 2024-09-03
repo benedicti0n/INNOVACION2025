@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Quantum;
+    src: url("./fonts/quantum.otf");
+  }
+  @font-face {
+    font-family: Tasa-SemiBold;
+    src: url("./fonts/TASAOrbiterText-SemiBold.otf");
+  }
+}
