@@ -6,8 +6,8 @@ import InnovacionLogo from "../../assets/Logo/innovacionLogo.webp"
 
 const Navbar = () => {
     return (
-        <div className='h-[4.5rem] w-full flex justify-between border-2 p-2'>
-            <div className='text-md text-white flex items-center'>
+        <div className='h-[4.5rem] w-full flex justify-between rounded-[10px] p-2 backdrop-blur-sm'>
+            <div className='text-md text-white flex items-center font-[Tasa-SemiBold]'>
                 <span className='lg:mr-5 lg:ml-5'>Home</span>
                 <span className='lg:mr-5'>Event</span>
                 <span className='lg:mr-5'>Gallery</span>
