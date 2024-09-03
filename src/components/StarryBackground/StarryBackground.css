@@ -1,8 +1,10 @@
-html,
-body {
+.homepage {
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
+  position: absolute;
+  z-index: -1;
   overflow: hidden;
   background: radial-gradient(circle at bottom, #16423c 0%, #000 100%);
 }
