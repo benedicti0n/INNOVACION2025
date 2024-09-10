@@ -12,7 +12,7 @@ const generateStars = (count) => {
     return stars;
 };
 
-const StarryBackground = () => {
+const StarryBackground = ({ extraClass }) => {
     useEffect(() => {
         const stars1 = generateStars(700); // Small stars
         const stars2 = generateStars(200); // Medium stars
@@ -28,7 +28,7 @@ const StarryBackground = () => {
     }, []);
 
     return (
-        <div className='homepage'>
+        <div className={`homepage ${extraClass || ""}`} >
             <div id="stars"></div>
             <div id="stars2"></div>
             <div id="stars3"></div>

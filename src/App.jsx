@@ -7,10 +7,8 @@ function App() {
 
   return (
     <div className="h-screen w-full">
-      {/* main sections which will scroll through smooth scroll */}
-      <StarryBackground />
+      <StarryBackground extraClass="bg-[radial-gradient(circle_at_bottom,#16423C_0%,#000_100%)]" />
       <div className="h-full lg:mx-40 lg:py-5">
-        {/* navbar will stay fixed */}
         <Navbar />
 
         <Homepage />
