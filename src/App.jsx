@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar/Navbar"
 import Homepage from "./components/Homepage/Homepage"
 import Eventspage from "./components/Eventpage/Eventspage"
-import GradientBox from "./components/GradientBox/GradientBox"
+import Gallery from "./components/Gallery/Gallery"
 
 function App() {
 
@@ -9,7 +9,8 @@ function App() {
     <div className="w-full">
       <Navbar />
       <Homepage />
-      <Eventspage />
+      {/* <Eventspage /> */}
+      <Gallery />
     </div>
   )
 }
