@@ -11,6 +11,7 @@ function App() {
       <Homepage />
       {/* <Eventspage /> */}
       <Gallery />
+      <Eventspage/>
     </div>
   )
 }
